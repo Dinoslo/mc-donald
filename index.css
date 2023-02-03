@@ -1,0 +1,666 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.nav{
+box-shadow: 3px 5px 10px  mistyrose;
+
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin:auto;
+}
+
+.logo {
+    width: 15%;
+}
+
+.mainMenu{
+    width:95%;
+}
+
+.Menu1 a,
+.Menu2 a{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.Menu1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 22px;
+}
+
+.menu1-left{
+    /* margin-left: 140px; */
+}
+
+.Menu1 a{
+    padding-right: 20px;
+    color: #353029;
+}
+
+.Menu2 a{
+padding-right: 15px;
+font-size: 17px;
+color: #353029;
+}
+
+.Menu1 button {
+background-color: #ffbc0d;
+padding: 10px 25px;
+border: none;
+border-radius: 4px;
+margin-right: 40px;
+}
+
+.menu .location{
+text-decoration: underline;
+color: #6d6fb3;
+}
+
+.zip{
+    width: 80%;
+    margin:auto;
+    margin-right: 20px;
+}
+
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    height: 500px;
+    width: 80%;
+    margin: auto;
+}
+
+.section1 .first{
+    height: 250px;
+    width: 55%;
+}
+
+
+
+.section1 .first img {
+    height: 100%;
+    width: 100%;
+}
+
+.second {
+    height: 250px;
+    width: 40%;
+}
+
+.second h1,
+.second h5,
+.second p {
+    margin-bottom: 25px;
+}
+
+.second h1{
+    font-weight: 900;
+}
+
+.second h5{
+    font-size: 20px;
+}
+
+.second button {
+    background-color: #ffbc0d;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 40px;
+}
+
+.section2 {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: left;
+    width: 95%;
+    height: 600px;
+}
+
+.section2 .first {
+    height: 300px;
+    width: 55%;
+}
+
+.section2 .first img{
+    height: 100%;
+    width: 100%;
+}
+
+.section2 .second {
+    height: 300px;
+    width: 33%;
+}
+
+.second h1,
+.second h5,
+.second p {
+    margin-bottom: 25px;
+}
+
+.second h1{
+    font-weight: 900;
+}
+
+.second h5{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.second button {
+    background-color: #ffbc0d;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 40px;
+}
+
+.section3 {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: left;
+    width: 95%;
+    height: 600px;
+}
+
+.section3 .first {
+    height: 300px;
+    width: 55%;
+}
+
+.section3 .first img{
+    height: 100%;
+    width: 100%;
+}
+
+.section3 .second {
+    height: 300px;
+    width: 33%;
+}
+
+.second h1,
+.second h5,
+.second p {
+    margin-bottom: 25px;
+}
+
+.second h1{
+    font-weight: 900;
+}
+
+.second h5{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.second button {
+    background-color: #ffbc0d;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 40px;
+}
+
+
+.section4 {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: left;
+    width: 95%;
+    height: 600px;
+}
+
+.section4 .first {
+    height: 300px;
+    width: 55%;
+}
+
+.section4 .first img{
+    height: 100%;
+    width: 100%;
+}
+
+.section4 .second {
+    height: 300px;
+    width: 33%;
+}
+
+.second h1,
+.second h5,
+.second p {
+    margin-bottom: 25px;
+}
+
+.second h1{
+    font-weight: 900;
+}
+
+.second h5{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.second button {
+    background-color: #ffbc0d;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 40px;
+}
+
+.section5 {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: left;
+    width: 95%;
+    height: 500px;
+}
+
+.section5 .first {
+    height: 300px;
+    width: 55%;
+}
+
+.section5 .first img{
+    height: 100%;
+    width: 100%;
+}
+
+.section5 .second {
+    height: 300px;
+    width: 33%;
+}
+
+.second h1,
+.second h5,
+.second p {
+    margin-bottom: 25px;
+}
+
+.second h1{
+    font-weight: 900;
+}
+
+.second h5{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.second button {
+    background-color: #ffbc0d;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 40px;
+}
+
+
+.section6 {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: left;
+    width: 95%;
+    height: 450px;
+}
+
+.section6 .first {
+    height: 300px;
+    width: 55%;
+}
+
+.section6 .first img{
+    height: 100%;
+    width: 100%;
+}
+
+.section6 .second {
+    height: 300px;
+    width: 33%;
+}
+
+.second h1,
+.second h5,
+.second p {
+    margin-bottom: 25px;
+}
+
+.second h1{
+    font-weight: 900;
+}
+
+.second h5{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.second button {
+    background-color: #ffbc0d;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 40px;
+}
+
+.info{
+    height:300px ;
+    display: flex;
+    text-align: left;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-around;
+    width: 95%;
+}
+
+.info div {
+    height: 250px;
+   width: 21%; 
+}
+
+.info div h2,
+    div p {
+margin-bottom: 10px;    
+}
+          
+.first-footer{
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link {
+    height: 185px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.link div {
+    height: 30px;
+    width: 7%;
+}
+
+.link div img {
+    height: 100%;
+    width: 100%;
+}
+
+.second-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 85%;
+    font-size: 17px;
+}
+
+.one{
+    width: 1%;
+}
+
+.mom{
+    width: auto;
+}
+
+.child1,
+.child2,
+.child3 {
+    text-decoration: none;
+}
+
+
+.child1 a {
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.child2 a {
+    margin-right: 15px;
+}
+
+
+.child1,
+.child2{
+    margin-top: 20px;
+}
+
+.download {
+    height: 185px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 45%;
+}
+
+.download div {
+height: 50px;
+width: 20%;
+}
+
+.download div img {
+    height: 100%;
+    width: 100%;
+}
+
+.head {
+    height: 120px;
+    text-align: left;
+    margin-left: 355px;
+}
+
+.head h1,
+h3,
+p {
+    margin-bottom: 10px;
+}
+
+.head h1 {
+    font-size: 50px
+}
+
+.head h3 {
+    font-size: 30px;
+}
+
+.head form input{
+    height: 120px;
+    text-align: left;
+    margin-left: auto;
+}
+
+.section1-e {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: left;
+    width: 95%;
+    height: 600px;
+}
+
+
+.section1-e .first {
+    height: 300px;
+    width: 55%;
+}
+
+.section1-e .first img{
+    height: 100%;
+    width: 100%;
+}
+
+.section1-e .second {
+    height: 300px;
+    width: 33%;
+}
+
+.second h1,
+.second h5,
+.second p {
+    margin-bottom: 25px;
+}
+
+.second h1{
+    font-weight: 900;
+}
+
+.second h5{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.second button {
+    background-color: #ffbc0d;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 40px;
+}
+
+.section2-e{
+    text-align: left;
+    font-size: medium;
+}
+
+.image-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+}
+
+.image-sec div {
+height: 300px;
+width: 30%;
+}
+
+.image-sec div img {
+height: 100%;
+width: 100%;
+}
+
+.image-sec div h3 {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.image-sec div button {
+    background-color: #ffbc0d;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 40px;
+}
+
+.image-sec div h3,p,h6{
+    margin-bottom: 20px;
+}
+
+.infor{
+    padding-top: 90px;
+    height:500px ;
+    display: flex;
+    text-align: left;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-around;
+    width: 95%;
+}
+
+.infor div {
+    height: 350px;
+   width: 21%;
+   padding-top: 50px; 
+}
+
+.infor div h2,
+    div p {
+margin-bottom: 10px;    
+}
+
+.notep {
+    height: 75px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.section1-ed {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: left;
+    width: 95%;
+    height: 600px;
+}
+
+
+.section1-ed .banner-ed {
+    height: 410px;
+    width: 55%;
+}
+
+.section1-ed .banner-ed img{
+    height: 100%;
+    width: 100%;
+}
+
+.section1-ed .np {
+    height: 300px;
+    width: 33%;
+}
+
+.np h2,
+.np p,
+.np h6{
+    margin-bottom: 25px;
+}
+
+.second h2{
+    font-weight: 900;
+}
+
+.np p{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.np button {
+    background-color: #ffbc0d;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 40px;
+}
+
+.section2-ed{
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 95%;
+}
+
+
